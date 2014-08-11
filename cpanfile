@@ -19,6 +19,7 @@ requires 'JSON', 2;
 requires "JSON::XS";
 requires 'Class::Accessor::Lite';
 requires 'URI::Escape';
+requires 'DBD::mysql';
 
 on 'test' => sub {
     requires 'Test::More',     '0.96';
